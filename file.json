@@ -1,0 +1,80 @@
+{
+  "renderSettings": {
+          "xres": 500,
+          "yres": 500,
+          "nof-refractive-bounce": 10,
+          "nof-reflective-bounce": 10
+  },
+  "sphere": [
+        {
+          "radius": 1700,
+          "position": [0.0, -1750.0, 300.0],
+          "scale": 1.0,
+          "color": [208, 243, 213],
+          "refractive": 0,
+          "reflective": 0.9
+        },
+      {
+          "radius": 90,
+          "position": [-120.0, 10.0, 100.0],
+          "scale": 1.0,
+          "color": [249, 241, 117],
+          "refractive": 0,
+          "reflective": 0.7
+        },
+        {
+          "radius": 120,
+          "position": [120.0, 50.0, 200.0],
+          "scale": 1.0,
+          "color": [188.0, 231.0, 250.0],
+          "refractive": 0,
+          "reflective": 0.3
+        },
+        {
+          "radius": 30,
+          "position": [180.0, 30.0, -200.0],
+          "scale": 1.0,
+          "color": [172, 214, 236],
+          "refractive": 0,
+          "reflective": 0
+        },
+        {
+          "radius": 50,
+          "position": [-180.0, -30, -150.0],
+          "scale": 1.0,
+          "color": [241,197, 215],
+          "refractive": 0,
+          "reflective": 0
+        },
+        {
+          "_comment" : "MIDDLE SPHERE - GLASS",
+          "radius": 100,
+          "position": [0.0, 0.0, -100.0],
+          "scale": 1.0,
+          "color": [236, 225, 180],
+          "refractive": 1,
+          "reflective": 0.2
+        },
+            {
+          "_comment" : "SMALL SPHERE - GLASS",
+          "radius": 70,
+          "position": [100.0, -110.0, -350.0],
+          "scale": 1.0,
+          "color": [236, 225, 180],
+          "refractive": 1,
+          "reflective": 0.2
+        }
+  ],
+  "camera": {
+           "position": [0.0, 1000.0, -8000.0],
+           "window_distance": 7500.0
+
+  },
+  "light": [
+      {
+        "position": [100, 2000, -6000],
+        "color": [255,255,255],
+        "intensity": 1.0
+      }
+  ]
+}

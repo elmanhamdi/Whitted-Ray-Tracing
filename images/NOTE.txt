@@ -1,0 +1,1 @@
+The reason why the shadow under the sphere in the middle is more prominent is that the surface on which it stands is actually a sphere.
